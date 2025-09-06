@@ -111,7 +111,7 @@ const App = () => {
 
       <section className="fixed top-[60px] left-0 h-[calc(100%-120px)] w-full overflow-x-auto overflow-y-visible grid lg:grid-cols-3 gap-8 p-8">
         {/* Highest */}
-        <div className="lg:h-full lg:min-h-0 h-[300px]">
+        <div className="lg:h-full w-[340px] lg:min-h-0 h-[300px]">
           <Badge.Ribbon
             text="Highest"
             className="!bg-gradient-to-br !from-rose-500 !via-pink-500 !to-rose-500 !font-medium !z-[20000]"
@@ -170,7 +170,7 @@ const App = () => {
                     </div>
                     <Select
                       size="small"
-                      placeholder="Update Status"
+                      placeholder="Status"
                       onChange={(status) => updateStatus(item.id, status)}
                     >
                       <Select.Option value="pending">Pending</Select.Option>
@@ -190,7 +190,7 @@ const App = () => {
         </div>
 
         {/* Medium */}
-        <div className="lg:h-full lg:min-h-0 h-[300px]">
+        <div className="lg:h-full  w-[340px] lg:min-h-0 h-[300px]">
           <Badge.Ribbon
             text="Medium"
             className="!bg-gradient-to-br !from-indigo-500 !via-blue-500 !to-indigo-500 !font-medium !z-[20000]"
@@ -249,7 +249,7 @@ const App = () => {
                     </div>
                     <Select
                       size="small"
-                      placeholder="Update Status"
+                      placeholder="Status"
                       onChange={(status) => updateStatus(item.id, status)}
                     >
                       <Select.Option value="pending">Pending</Select.Option>
@@ -269,7 +269,7 @@ const App = () => {
         </div>
 
         {/* Lowest */}
-        <div className="lg:h-full lg:min-h-0 h-[300px]">
+        <div className="lg:h-full  w-[340px] lg:min-h-0 h-[300px]">
           <Badge.Ribbon
             text="Lowest"
             className="!bg-gradient-to-br !from-amber-500 !via-orange-500 !to-amber-500 !font-medium !z-[20000]"
@@ -328,7 +328,7 @@ const App = () => {
                     </div>
                     <Select
                       size="small"
-                      placeholder="Update Status"
+                      placeholder="Status"
                       onChange={(status) => updateStatus(item.id, status)}
                     >
                       <Select.Option value="pending">Pending</Select.Option>
