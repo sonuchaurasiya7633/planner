@@ -103,7 +103,7 @@ const App = () => {
           >
             <button className="focus:shadow-lg hover:scale-105 transition-translate duration-300 items-center py-2 px-3 text-sm rounded-lg bg-gradient-to-tr from-rose-600 via-red-500 to-rose-600 text-white flex gep-1 font-medium">
               <Delete className="w-4 h-4" />
-              Delete All Task
+              Delete All 
             </button>
           </Popconfirm>
         </div>
